@@ -45,4 +45,4 @@ python -m pytest -v            # run the tests
 - `1_money96.ipynb` - exploration and step-by-step build
 
 ## Stack
-Python, FastAPI, Pandas, SQLite, pytest
+Python, FastAPI, Pandas, SQLite, pytest"# End-to-end-Engine" 
