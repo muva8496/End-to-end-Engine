@@ -1,0 +1,22 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.8, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\Musa\anaconda3\envs\boosters_env\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Musa\money96\money96
+plugins: anyio-4.15.1, platformdirs-4.13.0, cov-7.1.0
+collecting ... collected 7 items
+
+test_api.py::test_health PASSED                                          [ 14%]
+test_api.py::test_good_rows_are_stored PASSED                            [ 28%]
+test_api.py::test_same_batch_twice_creates_no_duplicates PASSED          [ 42%]
+test_api.py::test_bad_rows_are_quarantined_with_reasons PASSED           [ 57%]
+test_api.py::test_nothing_is_lost PASSED                                 [ 71%]
+test_api.py::test_empty_list_is_rejected_with_422 PASSED                 [ 85%]
+test_api.py::test_summary_matches_ingested_data PASSED                   [100%]
+
+============================== warnings summary ===============================
+..\..\anaconda3\envs\boosters_env\Lib\site-packages\fastapi\testclient.py:1
+  C:\Users\Musa\anaconda3\envs\boosters_env\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================== 7 passed, 1 warning in 5.29s =========================
